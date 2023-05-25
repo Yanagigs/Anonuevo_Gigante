@@ -1,0 +1,146 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1600px;
+}
+
+.container {
+  background-image: url(./img/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 753px;
+  width: 100%;
+}
+.bar {
+  background-color: rgba(0, 0, 0, 0.427);
+  height: 75px;
+}
+menu {
+  width: 80%;
+}
+img {
+  float: left;
+  height: 40px;
+  width: 400px;
+}
+menu ul li {
+  display: inline-block;
+  padding-top: 20px;
+}
+menu ul li a {
+  text-decoration: none;
+  padding: 30px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: #b7a6aa;
+  cursor: pointer;
+}
+menu ul li a {
+  transition: 0.5s;
+}
+menu ul li a:hover {
+  color: #fbe78a;
+  text-shadow: 0 0 10px #fbe78a, 0 0 20px #fbe78a, 0 0 40px #fbe78a,
+    0 0 80px #fbe78a, 0 0 120px #fbe78a, 0 0 160px #fbe78a;
+}
+ul {
+  float: right;
+}
+menu ul li a:hover {
+  color: lightgoldenrodyellow;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+.con {
+  width: 70%;
+  margin: 50px auto;
+}
+.contact-box {
+  background-color: white;
+  display: flex;
+}
+.contact-left {
+  flex-basis: 100%;
+  padding: 40px 60px;
+}
+.contact-right {
+  flex-basis: 30%;
+  padding: 50px;
+  background-image: linear-gradient(yellow, orange);
+}
+h1 {
+  margin-bottom: 10px;
+}
+.con p {
+  margin-bottom: 25px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-group {
+  flex-basis: 45%;
+  padding: 10px;
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-bottom: 5px;
+}
+textarea {
+  width: 100%;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+}
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: darkblue;
+}
+button {
+  background: #ffc619;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.contact-left h3 {
+  color: darkblue;
+  margin-bottom: 30px;
+}
+.contact-right h3 {
+  color: black;
+  margin-bottom: 30px;
+}
+.contact-right i {
+  padding: 5px;
+}
+section a:hover {
+  color: white;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white,
+    0 0 80px white 0 0 120px white, 0 0 160px white;
+}
+section h4 {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+button:hover {
+  transform: scale(1.2);
+  z-index: inherit;
+}
+section:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}

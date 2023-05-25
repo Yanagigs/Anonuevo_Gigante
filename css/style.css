@@ -1,0 +1,86 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 2000px;
+}
+
+.container {
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.bar {
+  background-color: black;
+  opacity: 50%;
+  height: 75px;
+}
+menu {
+  width: 80%;
+}
+img {
+  float: left;
+  height: 40px;
+  width: 400px;
+}
+menu ul li {
+  display: inline-block;
+  padding-top: 20px;
+}
+menu ul li a {
+  text-decoration: none;
+  padding: 30px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: wheat;
+  cursor: pointer;
+}
+menu ul li a {
+  transition: 0.5s;
+}
+menu ul li a:hover {
+  color: #fbe78a;
+  text-shadow: 0 0 10px #fbe78a, 0 0 20px #fbe78a, 0 0 40px #fbe78a,
+    0 0 80px #fbe78a, 0 0 120px #fbe78a, 0 0 160px #fbe78a;
+}
+ul {
+  float: right;
+}
+menu ul li a:hover {
+  color: lightgoldenrodyellow;
+}
+.main {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  width: 60%;
+  color: white;
+  margin-top: 14%;
+  background-color: rgba(10, 10, 128, 0.167);
+  border-style: ridge;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.gradient {
+  background-image: linear-gradient(blue, yellow);
+  background-size: cover;
+  opacity: 0.4;
+  height: 700px;
+  width: 100%;
+}
+
+.logAcc {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+body {
+  background: url(./img/santorini.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}

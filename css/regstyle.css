@@ -1,0 +1,132 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1600px;
+}
+
+.container {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.bar {
+  background-color: rgba(0, 0, 0, 0.427);
+  height: 75px;
+}
+menu {
+  width: 80%;
+}
+img {
+  float: left;
+  height: 40px;
+  width: 400px;
+}
+menu ul li {
+  display: inline-block;
+  padding-top: 20px;
+}
+menu ul li a {
+  text-decoration: none;
+  padding: 30px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: #b7a6aa;
+  cursor: pointer;
+}
+menu ul li a {
+  transition: 0.5s;
+}
+menu ul li a:hover {
+  color: #fbe78a;
+  text-shadow: 0 0 10px #fbe78a, 0 0 20px #fbe78a, 0 0 40px #fbe78a,
+    0 0 80px #fbe78a, 0 0 120px #fbe78a, 0 0 160px #fbe78a;
+}
+ul {
+  float: right;
+}
+menu ul li a:hover {
+  color: lightgoldenrodyellow;
+}
+
+.con {
+  background-size: cover;
+}
+
+#form {
+  background-color: black;
+  height: 450px;
+  width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  opacity: 0.7;
+}
+#first-group {
+  border: 2px solid orangered;
+  width: 400px;
+  margin-top: 38px;
+  position: absolute;
+} 
+#content {
+  border: 1px solid #fff;
+  margin: 10px;
+  margin-left: 8px;
+  padding: 5px;
+}
+#content #input-group {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: 8px;
+  width: 300px;
+  color: #fff;
+}
+#placeholder {
+  color: #fff;
+}
+.fa {
+  display: inline-block;
+  color: white;
+  border-right: 1px solid #fff;
+  padding: 8px;
+  margin-left: 8px;
+}
+#second-group {
+  border: 2px solid orangered;
+  width: 400px;
+  margin-top: 38px;
+  margin-left: 400px;
+}
+.btn {
+  margin-top: 30px;
+  margin-left: 600px;
+  background: lightgoldenrodyellow;
+  color: black;
+  width: 150px;
+  border: 3px solid orangered;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+  font-size: 20px;
+}
+#submit-btn a:hover {
+  transform: scale(3);
+  z-index: 3;
+}
+body {
+  background: url(./img/greece.jpg);
+  background-size: cover;
+}
+.popup button {
+  width: 20%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #ff7f50;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
